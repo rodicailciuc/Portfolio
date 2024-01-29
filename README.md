@@ -1,6 +1,11 @@
-# Name of project
+# My Portfolio
 
-> A longer description
+🎇 **Rodica's Portfolio** 🎇
+
+Project portfolio is a meticulously crafted portfolio that showcases the
+professional journey and accomplishments of me. This portfolio serves as a
+comprehensive reflection of my skills, experiences, and expertise in
+programming.
 
 ## Table of contents
 
@@ -22,7 +27,8 @@
 
 ## General info
 
-> A short description
+A website of portfolio build to give small introduction about myself, work using
+agile methodology, html,css.
 
 ## Screenshots
 
@@ -33,32 +39,35 @@
 - Node 14.16.0
 - VSC code
 - JavaScript
-- ...
-- ...
+- Git
+- Html
+- Css
 
 ## Setup
 
-- `npm run start`
+- Clone the GitHub repository (link to clone)
+- Run the command `npm run install`
 
 ## Code Examples
 
 ```js
-// the hello world program
-console.log("Hello World");
+<div class="contact-form">
+  <form action="">
+    <input type="name" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <input type="number" placeholder="Your Mobile Number" required />
+    <textarea
+      name=""
+      id=""
+      cols="35"
+      rows="10"
+      placeholder="How Can I Help You"
+      required
+    ></textarea>
+    <input type="submit" value="Send Message" class="submit" required />
+  </form>
+</div>
 ```
-
-## Features
-
-List of features ready and Todos for future development
-
--
--
--
-
-To-do list:
-
--
--
 
 ## Status
 
@@ -70,7 +79,7 @@ Project by freeCodeCamp.org
 
 ## Contact
 
-By [Name]
+| [Rodica](https://github.com/rodicailciuc) |
 
 ## Instructions for use
 

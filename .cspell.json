@@ -17,7 +17,8 @@
     "wireframe",
     "Rodica's",
     "Rodica",
-    "Ilciuc"
+    "Ilciuc",
+    "navigations"
   ],
   "ignorePaths": [
     "node_modules/**",

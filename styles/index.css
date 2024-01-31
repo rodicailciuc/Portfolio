@@ -9,13 +9,28 @@ body {
   background-image: url(../public/img/globe.webp);
   background-size: cover;
   margin: 0;
+  padding: 0;
   background-repeat: no-repeat;
 }
 
 #content {
   top: 5px;
-  display: table-row;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
+.intro,
+.about,
+.experience,
+.portfolio,
+.footer,
+.contact {
+  display: grid;
+  text-align: center;
+}
+
+/* navigation */
 
 .navbar h1 img {
   width: 45px;
@@ -29,35 +44,48 @@ body {
   font-weight: 300;
 }
 
-.navbar-collapse ul li {
-  display: inline;
-  justify-content: space-evenly;
+.navbar-collapse .navbar-right li {
+  display: flex;
+  justify-content: center;
   margin: 5px;
   top: 10px;
   font-size: 20px;
   right: 10px;
 }
 
-.container1 {
-  display: table-footer-group;
-  padding-left: 10px;
-}
-
-/* .navbar-right li {
-  display: inline-flex;
-  justify-content: space-between;
-  align-items: center;
-  top: 10px;
-} */
-
+/* intro */
 section .overlay {
-  align-items: center;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   padding-left: 25px;
-  justify-content: center;
   padding-top: 90px;
   padding-bottom: 100px;
+}
+
+#about,
+#experience,
+#portfolio,
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* about */
+
+.container1 {
+  display: flex;
+  align-items: center;
+}
+
+/* experience */
+
+.container1 h2 {
+  justify-content: center;
+  display: flex;
 }
 
 .skill-section .row {
@@ -70,3 +98,14 @@ section .overlay {
 .row .img-responsive {
   width: 55px;
 }
+
+/* work */
+
+.project-calculator a img {
+  width: 70px;
+  display: inline;
+}
+
+/* contact */
+
+/* footer */

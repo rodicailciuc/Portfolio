@@ -18,7 +18,8 @@
     "Rodica's",
     "Rodica",
     "Ilciuc",
-    "navigations"
+    "navigations",
+    "webp"
   ],
   "ignorePaths": [
     "node_modules/**",

@@ -19,7 +19,8 @@
     "Rodica",
     "Ilciuc",
     "navigations",
-    "webp"
+    "webp",
+    "socialelink"
   ],
   "ignorePaths": [
     "node_modules/**",

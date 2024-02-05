@@ -9,7 +9,7 @@ programming.
 
 ## Table of contents
 
-- [Name of project](#name-of-project)
+- [Portfolio](#name-of-project)
   - [Table of contents](#table-of-contents)
   - [General info](#general-info)
   - [Screenshots](#screenshots)
@@ -32,7 +32,7 @@ agile methodology, html,css.
 
 ## Screenshots
 
-![Example screenshot](./planning/screenshot.jpg)
+![Example screenshot](../Portfolio/public/img/Capture%20d’écran%202024-02-05%20153107.png)
 
 ## Technologies
 

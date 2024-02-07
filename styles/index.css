@@ -1,6 +1,7 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -40,6 +41,8 @@ header {
   justify-content: space-around;
   z-index: 100;
   margin: 0;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 .navbar img {
@@ -79,12 +82,19 @@ header {
   padding: 10px;
 }
 
+/* .page-scroll {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+} */
+
 /* introduction */
 
 .intro {
   margin-top: 30px;
   margin-bottom: 70px;
   text-align: center;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 section .overlay {
@@ -138,6 +148,8 @@ section .overlay {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 .container1 p {
@@ -156,6 +168,8 @@ section .overlay {
 } */
 .experience {
   margin-top: 40px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 .experience .row {
@@ -211,8 +225,10 @@ h3 {
 
 /* work */
 
-.portfolio {
+.work {
   color: white;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 .section-heading {
@@ -237,6 +253,8 @@ h3 {
   margin-top: 20px;
   text-align: center;
   color: white;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 .contact h2 {

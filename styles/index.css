@@ -105,7 +105,7 @@ section .overlay {
   font-style: italic;
   font-size: 60px;
   margin: 15px;
-  animation: animate 3s linear infinite;
+  animation: animate 2s linear infinite;
 }
 
 @keyframes animate {
@@ -115,12 +115,12 @@ section .overlay {
   }
 
   50% {
-    color: rgb(40 152 152);
+    color: rgb(208 240 240);
     opacity: 1;
   }
 
   100% {
-    color: rgb(88 150 174);
+    color: rgb(161 215 236);
     opacity: 1;
   }
 }
@@ -256,6 +256,7 @@ h3 {
 }
 
 .contact #email-button {
+  display: inline-block;
   margin-top: 20px;
   font-size: 25px;
   text-decoration: none;
